@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python
 """
 Given an array of integers, calculate which fraction of its elements are
 positive, which fraction of its elements are negative, and which fraction of
@@ -63,7 +63,7 @@ def plus_minus(array):
 
 def main():
     """Program entry point."""
-    number_of_elemets = int(input().strip())
+    input().strip()
     array = [int(arr_temp) for arr_temp in input().strip().split(' ')]
     plus_minus(array)
 

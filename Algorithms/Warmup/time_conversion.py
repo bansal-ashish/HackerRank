@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python
 """
 Given a time in AM/PM format, convert it to military (24-hour) time.
 

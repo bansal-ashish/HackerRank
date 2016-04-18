@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python
 """
 Your teacher has given you the task of drawing a staircase structure. Being an
 expert programmer, you decided to make a program to draw it for you instead.
@@ -18,6 +18,7 @@ example for N=6, here's a staircase of that height:
 ######
 Note: The last line has 0 spaces before it.
 """
+
 
 def print_staircase(number_of_steps):
     """Print staircase."""

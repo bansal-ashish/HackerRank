@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python
 """
 Given a square matrix of size N×N, calculate the absolute difference between
 the sums of its diagonals.
@@ -34,7 +34,6 @@ The secondary diagonal is:
 Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 """
-#import sys
 
 
 def diagonal_difference(matrix_size, matrix):

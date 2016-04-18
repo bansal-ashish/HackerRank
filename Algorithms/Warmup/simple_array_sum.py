@@ -1,6 +1,4 @@
-#!/bin/python3
-
-import sys
+#!/usr/bin/env python
 
 
 n = int(input().strip())
