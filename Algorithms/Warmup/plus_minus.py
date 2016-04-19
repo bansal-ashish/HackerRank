@@ -34,6 +34,13 @@ There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 The respective fractions of positive numbers, negative numbers and zeroes are
 3/6=0.500000, 2/6=0.333333 and 1/6=0.166667, respectively.
 """
+from __future__ import print_function, division
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def fraction_of_positives(array):

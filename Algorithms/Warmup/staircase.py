@@ -18,6 +18,13 @@ example for N=6, here's a staircase of that height:
 ######
 Note: The last line has 0 spaces before it.
 """
+from __future__ import print_function
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def print_staircase(number_of_steps):

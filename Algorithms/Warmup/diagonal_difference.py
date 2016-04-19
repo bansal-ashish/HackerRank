@@ -34,6 +34,13 @@ The secondary diagonal is:
 Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 """
+from __future__ import print_function
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def diagonal_difference(matrix_size, matrix):

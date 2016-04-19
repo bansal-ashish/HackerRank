@@ -19,6 +19,13 @@ Sample Input
 Sample Output
 19:05:45
 """
+from __future__ import print_function
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def convert_time(time):
