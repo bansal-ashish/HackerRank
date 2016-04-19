@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
-Given an array of NN integers, can you find the sum of its elements?
+Given an array of N integers, can you find the sum of its elements?
 
 Input Format
-The first line contains an integer, NN, denoting the size of the array.
-The second line contains NN space-separated integers representing the array's
+The first line contains an integer, N, denoting the size of the array.
+The second line contains N space-separated integers representing the array's
 elements.
 
 Output Format
@@ -20,6 +20,13 @@ Sample Output
 Explanation
 We print the sum of the array's elements, which is: 1+2+3+4+10+11=31.
 """
+from __future__ import print_function
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def main():

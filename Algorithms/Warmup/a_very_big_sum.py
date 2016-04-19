@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """
-You are given an array of integers of size NN. You need to print the sum of
+You are given an array of integers of size N. You need to print the sum of
 the elements in the array, keeping in mind that some of those integers may be
 quite large.
 
 Input
-The first line of the input consists of an integer NN. The next line contains
+The first line of the input consists of an integer N. The next line contains
 N space-separated integers contained in the array.
 
 Constraints
@@ -26,6 +26,13 @@ When we add several integer values, the resulting sum might exceed the above
 range. You might need to use long long int in C/C++ or long data type in Java
 to store such sums.
 """
+from __future__ import print_function
+
+
+try:
+    input = raw_input
+except:
+    pass
 
 
 def main():
